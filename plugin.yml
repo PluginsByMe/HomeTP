@@ -1,0 +1,14 @@
+name: HomeTeleporter
+main: HomeTP\HomeTP
+version: 3.2
+api: [1.0.0, 2.0.0, 3.0.0]
+commands:
+ home:
+  description: Teleports to your previously set home
+  usage: /home <name>
+ sethome:
+  description: Sets your home
+  usage: /sethome <name>
+ ishome:
+  description: Checks if the home is set, and if not, brief instructions are provided on how to set the house with that name.
+  usage: /ishome <name>
